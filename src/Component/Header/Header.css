@@ -1,0 +1,38 @@
+.header{
+    background-color: #1c2b35;
+    padding: 18px 0;
+}
+.items li {
+    position: relative;
+    list-style: none;
+    
+}
+.items li:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out ;
+}
+
+.item{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding: 0 18px;
+    font-size: 17px;
+    color: white;
+}
+.item:hover{
+    color: #FF9900 !important;
+    transition: all 0.5s;
+}
+.item::before{
+    content: '';
+    width: 5px;
+    height: 30px;
+    background-color: #995c00;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.item:hover::before{
+    opacity: 1;
+}

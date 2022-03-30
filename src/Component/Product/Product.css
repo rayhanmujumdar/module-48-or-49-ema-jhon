@@ -1,0 +1,27 @@
+.product{
+    width: 300px;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.product:hover{
+    box-shadow: 0px 5px 14px 0px;
+}
+.product-details{
+    padding: 10px;
+    height: 100%;
+}
+.cart-btn{
+    width: 100%;
+    background-color: #FFE0B3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    border-top: 1px solid #95A0A7;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.cart-btn:hover{
+    background-color: #2a414f;
+    color: white;
+}
